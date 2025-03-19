@@ -1,0 +1,35 @@
+@font-face {
+  font-family: MiSans;
+  src: url(./Fonts/MiSansThaiVF.ttf);
+}
+
+@font-face {
+  font-family: Manrope;
+  src: url(./Fonts/Manrope-VariableFont_wght.ttf);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-family: "Manrope", "system-ui", Helvetica, Arial, sans-serif;
+  color-scheme: light dark;
+  --text-color: #eee;
+  --bg-color: #121212;
+  color: var(--text-color);
+  background-color: var(--bg-color);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --text-color: #222;
+    --bg-color: #FCEFEC;
+  }
+}
